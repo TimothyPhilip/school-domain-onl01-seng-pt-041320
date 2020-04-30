@@ -23,9 +23,8 @@ class School
   
   def sort 
     @roster.each do |grade, student|
-      gradea
     end
-    
+    grade.values
   end
   
 end 

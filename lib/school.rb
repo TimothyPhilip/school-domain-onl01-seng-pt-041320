@@ -19,7 +19,7 @@ class School
   end
     
   def grade(grade)
-    grade.values
+    grade[name]
   end
     
 end 

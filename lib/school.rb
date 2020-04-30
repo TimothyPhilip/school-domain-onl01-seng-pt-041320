@@ -22,7 +22,6 @@ class School
     if @roster.keys == grade
       @roster.values
     end
-    
   end
     
 end 

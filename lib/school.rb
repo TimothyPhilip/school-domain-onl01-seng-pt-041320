@@ -26,6 +26,7 @@ class School
       grade
       student.collect do |stud|
         stud
+      end
     end
   end
   

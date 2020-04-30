@@ -13,8 +13,8 @@ class School
     if roster.key?(grade) == true
         @roster[grade] << name
     else
-        roster[grade] = []
-        roster[grade] << name
+        @roster[grade] = []
+        @roster[grade] << name
     end
   end
     

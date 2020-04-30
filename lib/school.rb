@@ -19,7 +19,7 @@ class School
   end
     
   def grade(grade)
-    grade.each do |grade_number, students|
+    grade.collect do |grade_number, students|
       students
     end
   end

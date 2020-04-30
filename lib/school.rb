@@ -19,7 +19,7 @@ class School
   end
     
   def grade(grade)
-    grade[name]
+    grade
   end
     
 end 

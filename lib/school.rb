@@ -9,7 +9,7 @@ class School
   end 
     
   def add_student(name, grade)
-    if @roster.key?(grade) == true
+    if  @roster.key?(grade) == true
         @roster[grade] << name
     else
         @roster[grade] = []

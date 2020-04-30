@@ -26,6 +26,7 @@ class School
       grade
       studen.each do |k|
         k = k.sort
+      end
     end
   end
   

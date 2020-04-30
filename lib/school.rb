@@ -25,7 +25,7 @@ class School
     @roster.collect do |grade, student|
       grade
       student.collect do |stud|
-        stud
+        stud.sort
       end
     end
     @roster

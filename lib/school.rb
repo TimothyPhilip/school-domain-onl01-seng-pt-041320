@@ -21,6 +21,7 @@ class School
   def grade(grade)
     if @roster.keys == grade
       @roster
+      binding.pry
     end
   end
     

@@ -28,6 +28,7 @@ class School
         stud
       end
     end
+    @roster
   end
   
 end 

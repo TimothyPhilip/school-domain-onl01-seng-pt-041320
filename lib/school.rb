@@ -22,5 +22,4 @@ class School
       @roster.values
     
   end
- binding.pry
 end 

@@ -19,9 +19,9 @@ class School
   end
     
   def grade(grade)
-   
+   if grade == @roster
       @roster
-   
+    end
   end
     
 end 

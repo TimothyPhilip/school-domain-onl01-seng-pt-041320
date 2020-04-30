@@ -27,5 +27,5 @@ class School
     end
     
   end
-  sort
+  @roster
 end 

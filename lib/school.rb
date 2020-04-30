@@ -17,11 +17,11 @@ class School
         @roster[grade] << name
     end
   end
-    
+    binding.pry
   def grade(grade)
     if @roster.keys == grade
       @roster
-      binding.pry
+      
     end
   end
     

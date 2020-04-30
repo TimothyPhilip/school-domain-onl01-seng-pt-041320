@@ -19,8 +19,8 @@ class School
   end
     
   def grade(grade)
-    grade.collect do |grade_number, students|
-      students
+    if grade == roster.key
+      @roster.value
     end
   end
     

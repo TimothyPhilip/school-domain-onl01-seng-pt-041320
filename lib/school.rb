@@ -3,7 +3,6 @@ class School
   attr_accessor 
   attr_reader :school, :roster, :add_student
 
-  binding.pry
   def initialize(school, roster = {}) 
     @school = school 
     @roster = roster
@@ -23,5 +22,5 @@ class School
       @roster.values
     
   end
- 
+ binding.pry
 end 

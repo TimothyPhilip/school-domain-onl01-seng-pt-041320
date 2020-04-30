@@ -19,7 +19,8 @@ class School
   end
     
   def grade(grade)
-    if @roster
+    if @roster.keys == grade
+      @roster.value
     
   end
     
